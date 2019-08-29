@@ -65,6 +65,6 @@ end
     return true if array[counter]
     counter += 1
  end
-  return true
+  return false 
 
  end

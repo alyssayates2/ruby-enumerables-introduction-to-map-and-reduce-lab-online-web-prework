@@ -59,12 +59,12 @@ return true
 
 end
 
- # def reduce_to_any_true(array)
- #     counter = 0
- #  while counter < array.size do
- #    return true if # CONDITION ( I HAVE FOUND A TRUTHY VALUE )
- #    counter += 1
- # end
- #  return true
- #
- # end
+ def reduce_to_any_true(array)
+     i = 0
+  while counter < array.size do
+    return true if !array[i]
+    counter += 1
+ end
+  return true
+ 
+ end

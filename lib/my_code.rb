@@ -50,9 +50,9 @@ total
 end
 
 def reduce_to_all_true(array)
- i = 0
+ counter = 0
  while counter < array.size do
-   return false if !array[i]
+   return false if !array[counter]
    counter += 1
 end
 return true
@@ -62,7 +62,7 @@ end
  def reduce_to_any_true(array)
      counter = 0
   while counter < array.size do
-    return true if array[i];
+    return true if array[counter];
     counter += 1
  end
   return true
